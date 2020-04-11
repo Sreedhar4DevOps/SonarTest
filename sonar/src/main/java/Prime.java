@@ -14,15 +14,14 @@ public class Prime {
             }
         }
 
-        if (!flag)
+        if (!flag){
             System.out.println(num + " is a prime number.");
-            System.out.println("This is sreedhar and I made a change");
-        else
+            System.out.println("This is sreedhar in the if loop");
+        }
+		else{
             System.out.println(num + " is not a prime number.");
             System.out.println("This is sreedhar in the else loop");
-			System.out.println("This is sreedhar in the else loop");
-			System.out.println("This is sreedhar in the else loop");
-			System.out.println("This is sreedhar in the else loop");
+		}	
         
     }
 }
